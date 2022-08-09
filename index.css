@@ -1,0 +1,143 @@
+*{
+    font-family: sans-serif;
+}
+
+/* Header Section style */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.nav-items-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items-container > nav {
+    margin-right: 32px;
+    font-size: 14px;
+}
+
+.brand-name{
+    color: red;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex; 
+    margin: 0; 
+}
+
+.nav-list > li {
+    margin-right: 8px;
+}
+
+.nav-list > li:last-child {
+    margin-right: 0;
+}
+
+.nav-list > li.active {
+    border-bottom: 1px solid red;
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #EAEAEA;
+    background: #EAEAEA; 
+}
+
+/* .Header Section style */
+
+/* Hero section style */
+
+.hero > .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 2.5em;
+}
+
+.author{
+    font-size: 0.7em;
+    text-align: right;
+}
+
+/* .Hero section style */
+
+/* Title section body */
+
+.title{
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.search-container input{
+    height: 24px;
+    border-radius: 24px;
+    border: 1px solid #EAEAEA;
+    outline: none;
+    padding: 8px 16px;
+}
+
+.meals > .title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .Title section body */
+
+/* Pills styles */
+
+.pills {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.pills .pills-item {
+    margin-right: 16px;
+    border: 1px solid #EAEAEA;
+    border-radius: 24px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.pills-count{
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* .Pills styles */
+
+/* Food cards container */
+
+.food-card-thumbnail {
+    height: 200px;
+    width: 100%;
+}
+
+.food-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+}
+
+.food-card {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* .Food cards container */
